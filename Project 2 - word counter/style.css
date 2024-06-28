@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: monospace;
+}
+
+h1{
+    background-color: rgb(31, 64, 182);
+    width: 40%;
+    color: white;
+    margin: 0px;
+    padding: 20px;  
+}
+
+textarea{
+    height: 30%;
+    width: 42.3%;
+    font-size: 20px;
+}
+
+div{
+    background-color: rgb(31, 64, 182);
+    width: 40%;
+    color: white;
+    margin: 0px;
+    padding: 20px;  
+    font-size: 30px;
+}
+
+@media screen and (max-width: 850px) and (min-width: 390px){
+    h1{
+        background-color: rgb(31, 64, 182);
+        width: 40%;
+        color: white;
+          
+    }
+    
+    textarea{
+        height: 30%;
+        width: 42.3%;
+    }
+    
+    div{
+        background-color: rgb(31, 64, 182);
+        width: 40%;
+        color: white;
+        
+    }
+}
