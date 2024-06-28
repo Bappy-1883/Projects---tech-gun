@@ -32,23 +32,24 @@ div{
     font-size: 30px;
 }
 
-@media screen and (max-width: 850px) and (min-width: 390px){
+@media screen and (max-width:500px){
     h1{
         background-color: rgb(31, 64, 182);
-        width: 40%;
         color: white;
+        font-size: 15px;
           
     }
     
     textarea{
         height: 30%;
-        width: 42.3%;
+        width: 49.3%;
+        font-size: 10px;
     }
     
     div{
         background-color: rgb(31, 64, 182);
-        width: 40%;
         color: white;
+        font-size: 15px;
         
     }
 }
